@@ -1,12 +1,79 @@
+*html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
 body {
+  background-image: url(trafic/trafic\ bg-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+ 
+  height: 100vh;
+ width: 100%;
+
+}
+img{
+  display: block;
+  
+}
+
+.ligh-ff-container{
+  width: 106px;
+  height: 306px;
+  position: relative;
+  top: 225px;
+  left: 476px;
+  background-color: #333;
   display: flex;
-  min-height: 100vh;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
 }
 
-main {
-  flex: 1 0 auto;
+.ligh-on-container {
+  width: 106px;
+  height: 306px;
+  position: relative;
+  top: -80px;
+  left: 476px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
 }
+.timer{
+  width: 180px;
+  height: 72px;
+  border: 2px double orange;
+  border-radius: 3px;
+  background-color: #333;
+  position: absolute;
+  top: 198px;
+  left: 934px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: rgb(237, 154, 0);
+  font-family: d7;
+ 
+ 
+}
+@font-face{
+  font-family: d7;
+  src: url(/trafic/digital-7.ttf);
+}
+/* .timer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: orange;
+} */
 .topbuttom{
   background-color: #333;
 }

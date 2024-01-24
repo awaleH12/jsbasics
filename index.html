@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Form</title>
+    <title>Trafic lights advanced</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <!-- Compiled and minified CSS -->
@@ -20,7 +20,7 @@
     <header>
         <nav class="topbuttom">
             <div class="nav-wrapper container">
-              <a href="#!" class="brand-logo">Education Form</a>
+              <a href="#!" class="brand-logo">Trafic lights</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
@@ -42,112 +42,26 @@
            
     </header>
     <main>
-        <section>
-            <!-- form section -->
-            
-  <div class="row container">
-    <form class="col s12">
-        <div class="row">
-            <div class="input-field col s6">
-                <input id="first_name" type="text" class="validate" autocomplete="off">
-                <label for="first_name">First Name</label>
-            </div>
-            <div class="input-field col s6">
-                <input id="last_name" type="text" class="validate" autocomplete="off">
-                <label for="last_name">Last Name</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s12">
-                <select>
-                <option value="" disabled selected onchange="">Choose your option</option>
-                <option value="1">SIU</option>
-                <option value="2">Jazeera University</option>
-                <option value="3">Simad University</option>
-                </select>
-                <label>University</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s6">
-                <input id="city" type="text" class="validate" autocomplete="off" oninput="populateDistricts()">
-                <label for="city">City</label>
-            </div>
-            <div class="input-field col s6">
-                <input id="district" type="text" readonly class="validate" autocomplete="off" >
-                <label for="district">District</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s6">
-                <input id="bDate"  type="text" class="datepicker" class="validate" autocomplete="off" oninput="getAge()">
-                <label for="bDate">Birth Date</label>
-            </div>
-            <div class="input-field col s6">
-                <input id="age" type="text" readonly class="validate">
-                <label for="age">Age</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s6">
-                <input id="marks" type="text" class="validate" autocomplete="off" oninput="calculateGrade()">
-                <label for="marks">Marks</label>
-            </div>
-            <div class="input-field col s6">
-                <input id="grade" type="text" readonly class="validate" >
-                <label for="grade">Grade</label>
-            </div>
-        </div>
-      
-      
-      
-    </form>
-  </div>
-        
-        </section>
+      <!-- lights off -->
+      <div class="ligh-ff-container img">
+        <div class="light" id="off"><img src="trafic/lightoffsvg-01.svg" alt="" width="100" height="100"></div>
+        <div class="light" id="off"><img src="trafic/lightoff600-01.png" alt="" width="100" height="100"></div>
+        <div class="light" id="off"><img src="trafic/lightoff600-01.png" alt="" width="100" height="100"></div>
+     </div>
+     <!-- lights on -->
+       <div class="ligh-on-container img">
+          <div class="light" id="red"><img src="trafic/red600-01.png" alt="" width="100" height="100"></div>
+          <div class="light" id="green"><img src="trafic/green600-01.png" alt="" width="100" height="100"></div>
+          <div class="light" id="yellow"><img src="trafic/yellow600-01.png" alt="" width="100" height="100"></div>
+       </div>
+       <!-- timer -->
+       <div class="timer" id="timer">00:00</div>
+     
         
     </main>
-    <footer>
+    
         
-        <footer class="page-footer topbuttom">
-           
-                    
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12">
-                  <h5 class="white-text">Footer Content</h5>
-                  <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Links</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large red">
-                      <i class="large material-icons">mode_edit</i>
-                    </a>
-                    <ul>
-                      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-                      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-                    </ul>
-                  </div>
-              <div class="container">
-              © 2014 Copyright Text
-              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-              </div>
-            </div>
-          </footer>
-    </footer>
+    
     
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
