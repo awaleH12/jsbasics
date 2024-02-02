@@ -1,0 +1,57 @@
+:root{
+  --primary-color:#fafafa;
+  --secondary-color: #000;
+  --atl-color:#333;
+  --button-color: darkorange;
+  --card-color: #54bac9;
+  --card-font-color:white;
+
+}
+
+/* .darkmode{
+  --primary-color:black;
+  --secondary-color: white;
+  --atl-color:rgb(22, 20, 20);
+  --button-color: darkorange;
+
+} */
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+img{
+  display: block;
+}
+main {
+  flex: 1 0 auto;
+}
+
+section{
+  padding-block: 5rem 3rem;
+}
+
+.btn{
+  background-color: var(--button-color);
+}
+.tob-buttom{
+  background-color: var(--atl-color);
+}
+.toggle-btn{
+  margin: 1.2rem 2rem;
+}
+.text-h1-span{
+  color: var(--button-color);
+}
+#icon{
+  cursor: pointer;
+}
+.card {
+  background-color: var(--card-color);
+  color: var(--card-font-color);
+  padding: 1rem;
+
+}

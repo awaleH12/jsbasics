@@ -1,23 +1,19 @@
 :root{
-  --primary-color:#fafafa;
-  --secondary-color: #000;
-  --atl-color:#333;
-  --button-color: darkorange;
-
-
-  
-
-
-
-}
-
-.darkmode{
   --primary-color:black;
   --secondary-color: white;
-  --atl-color:#333;
+  --atl-color:rgb(22, 20, 20);
+  --button-color: darkorange;
+  --card-color: #333;
+  --card-font-color:white;
+}
+
+/* .darkmode{
+  --primary-color:black;
+  --secondary-color: white;
+  --atl-color:rgb(22, 20, 20);
   --button-color: darkorange;
 
-}
+} */
 body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -48,4 +44,13 @@ section{
 }
 .text-h1-span{
   color: var(--button-color);
+}
+#icon{
+  cursor: pointer;
+}
+.card {
+  background-color: var(--card-color);
+  color: var(--card-font-color);
+  padding: 1rem;
+
 }
