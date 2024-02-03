@@ -2,15 +2,17 @@ let icon = document.getElementById("icon");
 let style = document.getElementById("style");
 
 icon.onclick = function(){
-  style.href = ""
+  // style.href = ""
   // style.href = "white.css"
   
 
-  if(style.href = "darktheme.css"){
-    icon.src = "icons/sunn-01.png"
-  } else if (style.href = "white.css") {
-    
+  if(style.href.includes("darktheme.css")){
+    style.href = "white.css"
     icon.src = "icons/moonn-01-01.png"
+  } else if (style.href.includes("white.css")) {
+    style.href = "darktheme.css"
+    icon.src = "icons/sunn-01.png"
+    
   }
   // style.src ="darktheme.css"
   // document.body.classList.toggle("darkmode");
