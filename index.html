@@ -54,42 +54,53 @@
     </section>
     <section>
       <div class="row container">
+        <h3 >Students Record</h3>
         <form class="col s12">
           <div class="row">
             <div class="input-field col s6">
-              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <input id="first_name" type="text" class="validate" autocomplete="off">
               <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s6">
-              <input id="last_name" type="text" class="validate">
+              <input id="last_name" type="text" class="validate" autocomplete="off">
               <label for="last_name">Last Name</label>
             </div>
           </div>
           <div class="row">
-            <div class="input-field col s12">
-              <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-              <label for="disabled">Disabled</label>
+            <div class="input-field col s6">
+              <input id="marks" type="text" class="validate" autocomplete="off">
+              <label for="marks">Marks</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="grade" type="text" class="validate" autocomplete="off" readonly>
+              <label for="grade">Grade</label>
             </div>
           </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
+          
+          <div class="row hide" id="Scholorship">
             <div class="col s12">
-              This is an inline input field:
-              <div class="input-field inline">
-                <input id="email_inline" type="email" class="validate">
-                <label for="email_inline">Email</label>
-                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+             <h4>Scholorship form</h4>
+             <p>Congratualation for reaching this stage, please fill the form for the next step</p>
+             <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate" autocomplete="off">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate" autocomplete="off">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="marks" type="text" class="validate" autocomplete="off">
+                  <label for="marks">Marks</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="grade" type="text" class="validate" autocomplete="off" readonly>
+                  <label for="grade">Grade</label>
+                </div>
               </div>
             </div>
           </div>

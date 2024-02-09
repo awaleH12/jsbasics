@@ -27,4 +27,9 @@ icon.onclick = function(){
 // style theme
 // let style = document.getElementById("style");
 
-// from chatgpt
+// students record
+$(document).ready(function(){
+  let marks; 
+});
+
+
